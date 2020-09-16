@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839560129359",
+    "firebase_url": "https://beatrecoder.firebaseio.com",
+    "project_id": "beatrecoder",
+    "storage_bucket": "beatrecoder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839560129359:android:07d92a458adef6f77ab33a",
+        "android_client_info": {
+          "package_name": "com.example.beat_recoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839560129359-mjnvu5ubdg900e7q3t2gi2qj7e7l6jsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beat_recoder",
+            "certificate_hash": "e2cd289fcef09d82e59161f041929c66f67af9a6"
+          }
+        },
+        {
+          "client_id": "839560129359-ncji0e6qtv5k1674l46gg9q9jbf28db7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7BGhQ60cViZC-K3N1nI20VvYQ-vI7-jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839560129359-ncji0e6qtv5k1674l46gg9q9jbf28db7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
