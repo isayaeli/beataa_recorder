@@ -30,8 +30,8 @@ dependencies:
   record_mp3:
   permission_handler:
   file_picker:
-  firebase_auth: ^0.15.2
-  google_sign_in: ^4.5.3
+  firebase_auth:
+  google_sign_in:
 
 dev_dependencies:
   flutter_test:

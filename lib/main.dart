@@ -104,7 +104,10 @@ class _LoginPageState extends State<LoginPage> {
                child: FlatButton(
                  highlightColor: Colors.teal,
                  color: Colors.transparent,
-                   onPressed: () => _handleSignIn().then((FirebaseUser user) => Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Home()))),
+                  // onPressed: ()=> Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Home())),
+                   onPressed: () =>
+                    _handleSignIn().then((FirebaseUser user)
+                    => Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Home()))),
                    child:Row(
                      mainAxisAlignment: MainAxisAlignment.spaceAround,
                      children: <Widget>[

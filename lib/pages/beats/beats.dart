@@ -29,7 +29,7 @@ class _BeatsState extends State<Beats> {
    }
 
      Future<List<Beat>> _fetchData(http.Client client) async {
-    var response =  await client.get('http://10.0.2.2:8000/api/beats');
+    var response =  await client.get('https://beatrecoder.pythonanywhere.com/api/beats/');
     //  this line below check if statust code is not EQUAL to 404(404 is a statuscode for data not found )
     if(response.statusCode == 200){
       List jsonResponse = json.decode(response.body);
